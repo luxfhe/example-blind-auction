@@ -15,10 +15,10 @@
     "task:bid": "hardhat task:bid",
     "task:endAuction": "hardhat task:endAuction",
 
-    "updateContracts": "cp artifacts/contracts/ExampleToken.sol/ExampleToken.json frontend/contracts/FHERC20.json && cp deployments/localfhenix/ExampleToken.json frontend/contracts/FHERC20_DEPLOY.json && cp artifacts/contracts/Auction.sol/Auction.json frontend/contracts/",
+    "updateContracts": "cp artifacts/contracts/ExampleToken.sol/ExampleToken.json frontend/contracts/FHERC20.json && cp deployments/localluxfhe/ExampleToken.json frontend/contracts/FHERC20_DEPLOY.json && cp artifacts/contracts/Auction.sol/Auction.json frontend/contracts/",
     "updateContractTypes": "cp typechain-types/contracts/Auction.ts frontend/contracts/Auction.ts && cp typechain-types/contracts/ExampleToken.ts frontend/contracts/FHERC20.ts",
-    "localfhenix:start": "hardhat localfhenix:start",
-    "localfhenix:stop": "hardhat localfhenix:stop"
+    "localluxfhe:start": "hardhat localluxfhe:start",
+    "localluxfhe:stop": "hardhat localluxfhe:stop"
   },
   "repository": {
     "type": "git",
@@ -42,8 +42,8 @@
     "@openzeppelin/contracts": "^5.3.0",
     "chai": "^4.5.0",
     "cross-env": "^7.0.3",
-    "fhenix-hardhat-docker": "0.2.0",
-    "fhenix-hardhat-plugin": "0.2.0",
+    "luxfhe-hardhat-docker": "0.2.0",
+    "luxfhe-hardhat-plugin": "0.2.0",
     "hardhat": "^2.28.0",
     "hardhat-deploy": "^0.14.0",
     "hardhat-gas-reporter": "^2.3.0",
