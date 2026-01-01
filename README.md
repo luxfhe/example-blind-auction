@@ -14,7 +14,7 @@ able to follow it by yourself by reading the README and exploring its
 
 It comes with two luxfhe-specific hardhat plugins:
 
-- `luxfhe-hardhat-plugin`: The main plugin for luxfhe development in hardhat. It injects `luxfhejs` into the hardhat runtime environment, which allows you to interact with encrypted data in your tests and tasks.
+- `luxfhe-hardhat-plugin`: The main plugin for luxfhe development in hardhat. It injects `@luxfhe/sdk` into the hardhat runtime environment, which allows you to interact with encrypted data in your tests and tasks.
 - `luxfhe-hardhat-docker`: A plugin that allows you to run a local LuxFHE testnet in a docker container. This is useful for testing your contracts in a sandbox before deploying them on a testnet or on mainnet.
 
 ## Quick start
